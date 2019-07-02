@@ -4,10 +4,10 @@ class resultadoComponent extends Component {
 
 
     render() {
-        let {result} = this.props;
+        let {resultado} = this.props;
         return (
             <div className="result">
-                <p>{result}</p>
+                <p>{resultado}</p>
             </div>
     )
         ;
